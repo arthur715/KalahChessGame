@@ -1,0 +1,147 @@
+DEPTH = 7:
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1; if our turn + 3)
+              South     North
+error404        8         6
+Group2         -10       -16
+Jimmy          -6         26
+Group7          28       -8
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1; if our turn + 3 + else -3)
+              South     North
+error404       -4         6
+Group2          2        -4
+Jimmy          -8        -12
+Group7          4        -2
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1 + in later stage; if our turn + 3 + else -3)
+              South     North
+error404        10        32
+Group2          24        18
+Jimmy          -2         34
+Group7          12       -6
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1 + in later stage; if our turn + 3 + else -3 + have extra turn)
+              South     North
+error404        2        36
+Group2          4        group2 crash
+Jimmy          -4        2
+Group7          2       -26
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn)
+              South     North
+error404        12        42
+Group2          20        group2 crash
+Jimmy          -4         2
+Group7         -10       -26
+
+EB2( Hole capture *0.2; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn)
+              South     North
+error404        16        44
+Group2          20       -12
+Jimmy          -14        4
+Group7          56       -15
+
+
+DEPTH = 8:
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1; if our turn + 3)
+              South     North
+error404        14        14
+Group2          60        -20
+Jimmy           44        28
+Group7          20        >27
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1; if our turn + 3 + else -3)
+              South     North
+error404        20        14
+Group2          4         16
+Jimmy           4         4
+Group7          10        58
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1 + in later stage; if our turn + 3 + else -3)
+              South     North
+error404        8         14
+Group2         -4        -4
+Jimmy           44        10
+Group7          24        18
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.1 + in later stage; if our turn + 3 + else -3 + have extra turn +2)
+              South     North
+error404        12       -8
+Group2          4        -8
+Jimmy           24        22
+Group7         -6         26
+
+EB2(Seeds in store Difference; Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +2)
+              South     North
+error404        14        14
+Group2          4         16
+Jimmy           28        20
+Group7          14        16
+
+EB2( Hole capture *0.2; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +2 +0.5)
+              South     North
+error404        30        12
+Group2          14        16
+Jimmy           16       -12
+Group7     group7 crash   16
+
+EB2( Hole capture *0.1; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +4 +0.5)
+              South     North
+error404        8         24
+Group2         -12       -6
+Jimmy          -4        -22
+Group7     group7 crash   16
+
+EB2( Hole capture *0.2; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +3 +0.5)
+              South     North
+error404        10        40
+Group2         -22       -14
+Jimmy           10       -12
+Group7          20        16
+
+EB2( Hole capture *0.2; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +3 +0.5)
+              South     North
+error404        8        -8
+Group2         -8         8
+Jimmy           16       -12
+Group7          20        16
+
+EB2(best Hole capture ; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +2 +0.5)
+              South     North
+error404        10        12
+Group2         -14        6
+Jimmy           8         30
+Group7     crash (>36)   -6
+
+EB2(best Hole capture + defence opposite hole capture ; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +2 +0.5)
+              South     North
+error404        32        8
+Group2          2        draw
+Jimmy           16       -2
+Group7        crash     crash
+
+
+EB2(change opposite side parameters; best Hole capture + defence opposite hole capture ; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +2 +0.5)
+              South     North
+error404       -18       -26
+Group2          16       -8
+Jimmy           48        20
+Group7          8         8
+
+EB2(value different for south and north; change opposite side parameters; best Hole capture + defence opposite hole capture ; Seeds in store Difference + Seeds on both sides * 0.2 + in later stage; if our turn + 3 + else -3 + have extra turn +2 +0.5)
+              South     North
+error404       -18       -26
+Group2          16       -8
+Jimmy           48        20
+Group7          8         8
+
+
+DEPTH = 9:
+
+              South     North
+error404
+Group2
+Jimmy
+Group7

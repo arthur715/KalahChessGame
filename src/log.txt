@@ -1,0 +1,16 @@
+START;North
+We are the NORTH player so we go second
+1
+NORTH
+2
+NORTH
+3
+NORTH
+4
+NORTH
+5
+NORTH
+6
+NORTH
+7
+NORTH

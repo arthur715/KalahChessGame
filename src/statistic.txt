@@ -1,0 +1,26 @@
+////////////////////// latest version : MKAgent/Main is SOUTH //////////////////////
+NORTH: ../Agents/./test
+1 0
+0 0
+////////////////////// latest version : MKAgent/Main is NORTH //////////////////////
+SOUTH: ../Agents/./test
+0 0
+1 0
+FINISH
+############################ Tables ############################
+ 
+MKAgent/Main is SOUTH:
+ 
+Old version name | Average Time Per Move | Latest version Average Time Per Move | win/lose against old version
+../Agents/./test | 0 | 0 | win
+ 
+Total number of game play: 1 ; win: 1 ; lose: 0 
+ 
+ 
+ 
+MKAgent/Main is NORTH:
+ 
+Old version name | Average Time Per Move | Latest version Average Time Per Move | win/lose against old version
+../Agents/./test | 0 | 0 | win
+ 
+Total number of game play: 1 ; win: 1 ; lose: 0 

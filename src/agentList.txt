@@ -1,0 +1,3 @@
+-jar ../Agents/error404.jar
+-jar ../Agents/Group2Agent.jar
+-jar ../Agents/JimmyPlayer.jar
